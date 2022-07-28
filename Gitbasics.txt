@@ -111,8 +111,26 @@ local_develop	-------A(a.txt, b.txt, c.txt)------------------------------------>
 
 
 
+Branching Techniques:-
+---------------------------
+1. Create a local branch :- 
+		git branch <branch_name>
+		git branch dummy
 
+2. Switch between Branches
+		git checkout <branch_name>
+		
+		
+		git checkout dummy 
+		git remote add origin master
+				OR
+		git checkout -b second (Set the remote branch automatically)
+		
+3. git add secondFiles.txt
+	git commit -m "Commited from this branch-second"
+	git push --set-upstream origin second
 
-
-
-
+4. git checkout master
+	
+5. Merge changes from local branches
+	git merge second
