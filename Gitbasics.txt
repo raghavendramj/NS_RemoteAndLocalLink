@@ -107,10 +107,6 @@ local_develop	-------A(a.txt, b.txt, c.txt)------------------------------------>
 	12. git push --set-upstream origin master
 
 
-
-
-
-
 Branching Techniques:-
 ---------------------------
 1. Create a local branch :- 
@@ -134,3 +130,11 @@ Branching Techniques:-
 	
 5. Merge changes from local branches
 	git merge second
+	
+	
+	master (REMOTE)
+		master(LOCAL)
+			* dummy
+			-> git branch dummy
+	
+	
